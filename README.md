@@ -57,7 +57,7 @@ vagrant up
 
   更多 vagrant cli 命令参考 https://www.vagrantup.com/docs/cli
 
-## vagrant up
+## 补充说明
 
 运行 `vagrant up` 命令后, vagrant 会根据虚拟机描述文件 `Vagrantfile` 启动一个 virtualbox 虚拟机, 并执行 deploy.sh 脚本. deploy.sh 
 脚本将下载和安装 prometheus 和 grafana.
@@ -65,7 +65,7 @@ vagrant up
 promethues 常用来监控主机、应用、中间件, 通过 agent 来收集主机、应用等的指标信息，汇总保存到时序
 数据库，通过 grafana 做前端展示，提供了应用系统的观测性。
 
-## 项目结构
+### 项目结构
 
 ```bash
 Vagrantfile # 要启动的虚拟机配置文件
@@ -77,5 +77,6 @@ sql/init.sql 创建数据库用户的sql 脚本
 
 ## 参考
 
+- https://www.vagrantup.com/docs/cli
 - https://dev.mysql.com/doc/refman/8.0/en/linux-installation.html
 
