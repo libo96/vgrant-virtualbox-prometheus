@@ -29,6 +29,8 @@ vagrant up
 ### 1. 体验 prometheus 监控系统。
 
    打开 localhost:3001 地址，这是 grafana 前端地址（grafana 用来配合展示 prometheus 监控内容的前端组件） ，默认账号密码 admin/admin. 
+
+![localhost:3001](img/localhost-3001-grafana.jpg)
    
    登录后，你可以尽情探索。探索完后，可以根据模版id 12633 导入一款 grafana 模版，它展示了 ubuntu 虚拟机的监控状态。
 
@@ -36,14 +38,24 @@ vagrant up
 
    执行 `vagrant ssh` 连接到虚拟机，执行后，你就进入到了 ubuntu 系统的 shell，可以执行各种 linux 命令， 探索 linux 系统。
 
+![vagrant-ssh](img/vagrant-ssh.jpg)
+
 ### 3. 连接到 mysql 数据库
 
    虚拟机里安装了一个 mysql 实例，端口 3308，默认已经创建了一个数据库用户 root2/123456, 可以使用你的数据库连接软件连接到数据库。当然，
 在使用 `vagrant ssh` 登录到虚拟机 shell 后，你也可以直接执行 `sudo mysql` 连接到 mysql shell。
 
+![vagrant-ssh-sudo-mysql](img/sudo-mysql.jpg)
+
 ### 4. 销毁虚拟机
 
-   在体验完后，如果后续不想使用了，自然地，可以销毁虚拟机，执行 `vagrant destroy`。不想销毁也可以暂时挂起虚拟机，执行 `vagrant halt`。
+   在体验完后，如果后续不想使用了，自然地，可以销毁、停机、挂起虚拟机，
+
+- 执行 `vagrant destroy`，销毁虚拟机
+- 执行 `vagrant halt`，关闭虚拟机
+- 执行 `vagrant suspend` 挂起虚拟机
+
+  更多 vagrant cli 命令参考 https://www.vagrantup.com/docs/cli
 
 ## vagrant up
 
