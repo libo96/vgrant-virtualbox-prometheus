@@ -1,4 +1,6 @@
-# 快捷启动一个 ubuntu 虚拟机实例
+# 如何快捷启动一个 ubuntu 虚拟机实例
+
+![conver image](img/index.png)
 
 虚拟机是一个比较有意思的事物，有了虚拟机，我们可以轻易在自己电脑上体验不同的操作系统。 Linux 系统
 是服务器普遍使用的操作系统，但是很少会是我们个人电脑上的操作系统，那么体验和使用 Linux 就可以使用
@@ -80,3 +82,6 @@ sql/init.sql 创建数据库用户的sql 脚本
 - https://www.vagrantup.com/docs/cli
 - https://dev.mysql.com/doc/refman/8.0/en/linux-installation.html
 
+欢迎关注我的个人公众号-工程师雷雨 engioneer_leiyu96, 我会定期分享工作中用到的一些提高开发效率的自动化工具和开发体验.
+
+![wechat](img/wechat.jpg)
