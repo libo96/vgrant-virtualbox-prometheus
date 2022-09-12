@@ -33,8 +33,8 @@ vagrant up
    打开 localhost:3001 地址，这是 grafana 前端地址（grafana 用来配合展示 prometheus 监控内容的前端组件） ，默认账号密码 admin/admin. 
 
 ![localhost:3001](img/localhost-3001-grafana.jpg)
-   
-   登录后，你可以尽情探索。探索完后，可以根据模版id 12633 导入一款 grafana 模版，它展示了 ubuntu 虚拟机的监控状态。
+
+![linux-dashboard](img/linux-dashboard.jpg)
 
 ### 2. 登录到 ubuntu 虚拟机，探索 linux
 
