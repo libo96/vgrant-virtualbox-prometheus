@@ -1,0 +1,13 @@
+[Unit]
+Description=prometheus
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/app/prometheus-2.38.0.linux-amd64/prometheus --config.file=/vagrant/config/prometheus.yml --storage.tsdb.path=/vagrant/PrometheusData/
+
+[Install]
+WantedBy=multi-user.target

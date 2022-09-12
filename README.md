@@ -49,7 +49,7 @@ vagrant up
 
 ![vagrant-ssh-sudo-mysql](img/sudo-mysql.jpg)
 
-### 4. 销毁虚拟机
+### 销毁虚拟机
 
    在体验完后，如果后续不想使用了，自然地，可以销毁、停机、挂起虚拟机，
 
