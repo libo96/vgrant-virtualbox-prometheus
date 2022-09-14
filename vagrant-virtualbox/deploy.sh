@@ -84,6 +84,7 @@ initDirectory(){
 
    # 创建数据目录
    mkdir "/vagrant/PrometheusData"
+   rm -rf /vagrant/PrometheusData/*
 }
 
 initService(){
