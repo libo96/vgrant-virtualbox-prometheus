@@ -73,6 +73,10 @@ installMySQLNodeExporter(){
   nohup /app/mysqld_exporter-0.14.0.linux-amd64/mysqld_exporter >> /vagrant/logs/mysqld_node_expoter.log
 }
 
+installRedis(){
+
+}
+
 initDirectory(){
    sudo mkdir /app
 
